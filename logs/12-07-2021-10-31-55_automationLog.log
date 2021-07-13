@@ -1,0 +1,7 @@
+2021-07-12 10:31:55 INFO  Hook:38 - Log4j Configured
+2021-07-12 10:31:55 INFO  FlightsPage:22 - Constructor initialized
+2021-07-12 10:31:56 INFO  FlightsPage:62 - clicked on: Flights
+2021-07-12 10:31:56 INFO  FlightsPage:73 - clicked on: One-way
+2021-07-12 10:31:56 INFO  FlightsPage:74 - currentURL: https://www.expedia.com/
+2021-07-12 10:32:42 INFO  Hook:46 - After SCENARIO
+2021-07-12 10:32:44 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

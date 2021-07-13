@@ -1,0 +1,9 @@
+2021-07-12 16:10:12 INFO  Hook:38 - Log4j Configured
+2021-07-12 16:10:12 INFO  FlightsPage:23 - Constructor initialized
+2021-07-12 16:10:13 INFO  FlightsPage:75 - clicked on: Flights
+2021-07-12 16:10:13 INFO  FlightsPage:86 - clicked on: One-way
+2021-07-12 16:10:13 INFO  FlightsPage:87 - currentURL: https://www.expedia.com/
+2021-07-12 16:10:16 INFO  FlightsPage:101 - Leaving from: Fort Lauderdale (FLL - Fort Lauderdale-Hollywood Intl.)
+2021-07-12 16:10:18 INFO  FlightsPage:111 - Going to: Washington (DCA - Ronald Reagan Washington National)
+2021-07-12 16:10:39 INFO  Hook:46 - After SCENARIO
+2021-07-12 16:10:41 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

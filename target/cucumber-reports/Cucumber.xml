@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.662">
+<testcase classname="Flight" name="Successfully book a flight from Florida to Washington DC" time="18.399">
+<system-out><![CDATA[Given user selects "Flights" tab............................................passed
+Then user selects "One-way" trip............................................passed
+Then user selects from "Fort Lauderdale (FLL - Fort Lauderdale-Hollywood Intl.)".passed
+Then user selects to "Chisinau (KIV - Chisinau Intl.)"......................passed
+Then user selects departure date "Aug 31, 2021".............................passed
+Then user selects Cabin Class & Travelers "Economy".........................passed
+Then user selects number of Travelers "1"...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

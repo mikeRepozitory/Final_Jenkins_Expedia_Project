@@ -1,0 +1,5 @@
+2021-07-11 22:11:48 INFO  Hook:38 - Log4j Configured
+2021-07-11 22:11:48 INFO  FlightsPage:22 - Constructor initialized
+2021-07-11 22:11:48 INFO  FlightsPage:47 - clicked on: Flights
+2021-07-11 22:11:48 INFO  Hook:46 - After SCENARIO
+2021-07-11 22:11:50 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
