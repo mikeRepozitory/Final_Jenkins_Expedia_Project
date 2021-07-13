@@ -1,0 +1,6 @@
+2021-07-13 15:07:38 INFO  Hook:38 - Log4j Configured
+2021-07-13 15:07:38 INFO  FlightsPage:27 - Constructor initialized
+2021-07-13 15:07:39 INFO  FlightsPage:107 - clicked on: Flights
+2021-07-13 15:07:40 INFO  FlightsPage:118 - clicked on: One-way
+2021-07-13 15:07:40 INFO  FlightsPage:119 - currentURL: https://www.expedia.com/
+2021-07-13 15:07:41 INFO  FlightsPage:132 - Leaving from: 

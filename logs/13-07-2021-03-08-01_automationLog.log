@@ -1,0 +1,17 @@
+2021-07-13 15:08:01 INFO  Hook:38 - Log4j Configured
+2021-07-13 15:08:01 INFO  FlightsPage:27 - Constructor initialized
+2021-07-13 15:08:02 INFO  FlightsPage:107 - clicked on: Flights
+2021-07-13 15:08:02 INFO  FlightsPage:118 - clicked on: One-way
+2021-07-13 15:08:02 INFO  FlightsPage:119 - currentURL: https://www.expedia.com/
+2021-07-13 15:08:04 INFO  FlightsPage:132 - Leaving from: Fort Lauderdale (FLL - Fort Lauderdale-Hollywood Intl.)
+2021-07-13 15:08:06 INFO  FlightsPage:142 - Going to: Chisinau (KIV - Chisinau Intl.)
+2021-07-13 15:08:06 INFO  FlightsPage:148 - aria-label: Departing July 27, 2021
+2021-07-13 15:08:08 INFO  FlightsPage:153 - Submitted date: Aug 31, 2021
+2021-07-13 15:08:08 INFO  FlightsPage:167 - number of traveler is invalid 1st if statement1 traveler
+2021-07-13 15:08:08 INFO  FlightsPage:167 - number of traveler is invalid 1st if statement1 traveler
+2021-07-13 15:08:08 INFO  FlightsPage:167 - number of traveler is invalid 1st if statement1 traveler
+2021-07-13 15:08:08 INFO  FlightsPage:169 - number of traveler is invalid second if statement1 traveler
+2021-07-13 15:08:08 INFO  FlightsPage:171 - clicked on: Done
+2021-07-13 15:08:09 INFO  FlightsPage:176 - Clicked on:  Search
+2021-07-13 15:08:13 INFO  Hook:46 - After SCENARIO
+2021-07-13 15:08:15 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

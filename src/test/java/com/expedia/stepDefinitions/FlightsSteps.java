@@ -16,19 +16,16 @@ public class FlightsSteps {
     @Given("user selects {string} tab")
     public void userSelectsTab(String navigationType) throws InterruptedException {
         flightsPage.getFlightNavigation_Tab(navigationType);
-
     }
 
     @Then("user selects {string} trip")
     public void userSelectsTrip(String oneWayTrip_option) {
         flightsPage.setRound_Oneway_MultiCity_trip_option(oneWayTrip_option);
-
     }
 
     @Then("user selects from {string}")
     public void userSelectsFrom(String from) throws InterruptedException {
         flightsPage.selectTripTypeFrom_option(from);
-
     }
 
     @Then("user selects to {string}")
@@ -41,13 +38,16 @@ public class FlightsSteps {
         flightsPage.getDepartingDate(departureDate);
     }
 
-    @Then("user selects Cabin Class & Travelers {string}")
-    public void userSelectsCabinClassTravelers(String cabinClass) {
-    }
-
     @Then("user selects number of Travelers {string}")
     public void userSelectsNumberOfTravelers(String numberOfTravelers) {
-
+        flightsPage.selectTheNumberOfTravelers(numberOfTravelers);
 
     }
+
+    @Then("user selects Cabin Class & Travelers {string}")
+    public void userSelectsCabinClassTravelers(String cabinClass) throws InterruptedException {
+        flightsPage.searchForTheFlight();
+    }
+
+
 }

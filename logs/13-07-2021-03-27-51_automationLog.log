@@ -1,0 +1,11 @@
+2021-07-13 15:27:51 INFO  Hook:38 - Log4j Configured
+2021-07-13 15:27:51 INFO  FlightsPage:27 - Constructor initialized
+2021-07-13 15:27:52 INFO  FlightsPage:104 - clicked on: Flights
+2021-07-13 15:27:52 INFO  FlightsPage:115 - clicked on: One-way
+2021-07-13 15:27:52 INFO  FlightsPage:116 - currentURL: https://www.expedia.com/
+2021-07-13 15:27:55 INFO  FlightsPage:132 - Leaving from: Fort Lauderdale (FLL - Fort Lauderdale-Hollywood Intl.)
+2021-07-13 15:27:57 INFO  FlightsPage:145 - Going to: Chisinau (KIV - Chisinau Intl.)
+2021-07-13 15:27:57 INFO  FlightsPage:151 - aria-label: Departing July 27, 2021
+2021-07-13 15:27:58 INFO  FlightsPage:156 - Submitted date: Aug 31, 2021
+2021-07-13 15:27:58 INFO  FlightsPage:166 - number of traveler is invalid second if statement1 traveler
+2021-07-13 15:27:58 INFO  FlightsPage:173 - Clicked on:  Search
