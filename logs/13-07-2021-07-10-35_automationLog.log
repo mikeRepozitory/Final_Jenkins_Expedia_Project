@@ -1,0 +1,4 @@
+2021-07-13 19:10:35 INFO  Hook:38 - Log4j Configured
+2021-07-13 19:10:35 INFO  CarsPage:31 - carPage Constructor initialized
+2021-07-13 19:10:35 INFO  CarsPage:67 - clicked on: Cars
+2021-07-13 19:10:38 INFO  CarsPage:83 - Car pickUp location: Madison (MSN - Dane County Regional)

@@ -1,0 +1,189 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-13T23:32:12.027Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8981000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.expedia.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Successfully rent a car in Madison WI",
+        "description": "",
+        "id": "flight;successfully-rent-a-car-in-madison-wi",
+        "after": [
+          {
+            "result": {
+              "duration": 2781000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.expedia.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 486000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"Cars\" rental tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsRentalTab(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2618000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects pickUp location \"Madison (MSN - Dane County Regional)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Madison (MSN - Dane County Regional)\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsPickUpLocation(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1990000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects dropOff location \"Madison (MSN - Dane County Regional)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Madison (MSN - Dane County Regional)\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsDropOffLocation(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1640000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects pickUp date \"Aug 31, 2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aug 31, 2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsPickUpDate(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1603000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects dropOff date \"Sep 2, 2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sep 2, 2021\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsDropOffDate(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2094000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects pickUp time \"9:30 am\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9:30 am\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsPickUpTime(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2468000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects dropOff time \"9:30 am\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9:30 am\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsDropOffTime(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RentalCar"
+          },
+          {
+            "name": "@Car"
+          }
+        ]
+      }
+    ],
+    "name": "Flight",
+    "description": "",
+    "id": "flight",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Cars.feature",
+    "tags": [
+      {
+        "name": "@RentalCar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

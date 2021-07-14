@@ -1,0 +1,5 @@
+2021-07-13 18:00:17 INFO  Hook:38 - Log4j Configured
+2021-07-13 18:00:18 INFO  CarsPage:31 - carPage Constructor initialized
+2021-07-13 18:00:18 INFO  CarsPage:64 - clicked on: Cars
+2021-07-13 18:00:21 INFO  CarsPage:79 - Leaving from: Madison (MSN - Dane County Regional)
+2021-07-13 18:00:32 INFO  Hook:46 - After SCENARIO

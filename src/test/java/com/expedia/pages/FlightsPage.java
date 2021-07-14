@@ -47,6 +47,7 @@ public class FlightsPage implements Serializable {
 
     @FindBy(xpath = "//span[text()='Leaving from']")
     WebElement leavingFrom_TextBox;
+
     @FindBy(css = "[placeholder='Where are you leaving from?']")
     WebElement whereAreYouLeavingFrom_TextBox;
     @FindBy(xpath = "(//ul[@class='uitk-typeahead-results no-bullet']/li)[1]")

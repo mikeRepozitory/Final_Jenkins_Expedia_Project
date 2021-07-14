@@ -1,0 +1,6 @@
+2021-07-13 17:56:11 INFO  Hook:38 - Log4j Configured
+2021-07-13 17:56:11 INFO  CarsPage:31 - carPage Constructor initialized
+2021-07-13 17:56:11 INFO  CarsPage:64 - clicked on: Cars
+2021-07-13 17:56:39 INFO  Hook:46 - After SCENARIO
+2021-07-13 17:56:42 DEBUG PoolThreadCache:224 - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+2021-07-13 17:56:42 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

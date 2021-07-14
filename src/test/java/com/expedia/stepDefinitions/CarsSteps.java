@@ -3,6 +3,7 @@ package com.expedia.stepDefinitions;
 import com.expedia.pages.CarsPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+
 import static com.expedia.base.Hook.driver;
 
 public class CarsSteps {
@@ -13,27 +14,37 @@ public class CarsSteps {
         carsPage.getCarNavigation_Tab(actualDesired_OptionCars);
     }
 
-    @Then("user selects pickUp Location {string}")
-    public void userSelectsPickUpLocation(String arg0) {
+
+    @Then("user selects pickUp location {string}")
+    public void userSelectsPickUpLocation(String pickUpLocation) throws InterruptedException {
+        carsPage.GetCarPickUpLocation(pickUpLocation);
     }
 
-    @Then("user selects dropOff Location {string}")
-    public void userSelectsDropOffLocation(String arg0) {
+    @Then("user selects dropOff location {string}")
+    public void userSelectsDropOffLocation(String dropOffLocation) throws InterruptedException {
+        carsPage.GetCarDropOffLocation(dropOffLocation);
     }
+
 
     @Then("user selects pickUp date {string}")
-    public void userSelectsPickUpDate(String arg0) {
+    public void userSelectsPickUpDate(String pickUpDate) {
+        carsPage.carPickUpDateOption(pickUpDate);
     }
 
     @Then("user selects dropOff date {string}")
-    public void userSelectsDropOffDate(String arg0) {
+    public void userSelectsDropOffDate(String dropOffDate) {
+        carsPage.getCarDropOffDateOption(dropOffDate);
     }
 
     @Then("user selects pickUp time {string}")
-    public void userSelectsPickUpTime(String arg0) {
+    public void userSelectsPickUpTime(String pickUpTime) {
+        carsPage.getCarPickUpTime(pickUpTime);
     }
 
     @Then("user selects dropOff time {string}")
-    public void userSelectsDropOffTime(String arg0) {
+    public void userSelectsDropOffTime(String dropOffTime) {
+        carsPage.getCarDropOffTime(dropOffTime);
+
     }
+
 }
