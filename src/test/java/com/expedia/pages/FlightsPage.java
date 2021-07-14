@@ -153,6 +153,7 @@ public class FlightsPage implements Serializable {
             if (element.getAttribute("aria-label").contains(actualTravelDate)) {
                 logger.info("Submitted date: " + element.getAttribute("aria-label"));
                 element.click();
+
             }
         }
         calendarDone_button.click();

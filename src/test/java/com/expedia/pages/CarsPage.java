@@ -26,6 +26,7 @@ public class CarsPage {
     String pickUpTime = null;
     String dropOffTime = null;
     Select select;
+    String searchMainButton;
 
 
     WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -71,6 +72,9 @@ public class CarsPage {
     @FindBy(xpath = "//select[@aria-label='Drop-off time']")
     WebElement dropOffTime_dropDown;
 
+    @FindBy(xpath = "//button[text()='Search']")
+    WebElement searchForRentalCarsMain_button;
+
 
     public String getCarNavigation_Tab(String navigationTypeSelector) {
         navigationType = car_Tab.getText();
@@ -81,7 +85,7 @@ public class CarsPage {
         return navigationTypeSelector;
     }
 
-    public String GetCarPickUpLocation(String actualPickUpLocation) throws InterruptedException {
+    public String GetCarPickUpLocation(String actualPickUpLocation) {
         wait.until(ExpectedConditions.visibilityOf(defaultPickUpLocation));
         actions.moveToElement(defaultPickUpLocation).click().build().perform();
         wait.until(ExpectedConditions.visibilityOf(pickUpFrom_TextBox));
@@ -95,7 +99,7 @@ public class CarsPage {
         return carPickUpTripSelector;
     }
 
-    public String GetCarDropOffLocation(String actualDropOffLocation) throws InterruptedException {
+    public String GetCarDropOffLocation(String actualDropOffLocation) {
         wait.until(ExpectedConditions.visibilityOf(defaultDropOffLocation));
         actions.moveToElement(defaultDropOffLocation).click().build().perform();
         wait.until(ExpectedConditions.visibilityOf(dropOffAt_TextBox));
@@ -115,8 +119,9 @@ public class CarsPage {
         defaultPickUpDate.click();
         for (WebElement element : allCalendarDates) {
             if (element.getAttribute("aria-label").contains(actualPickUpDate)) {
-                logger.info("actualPickUpDate:  " + element.getAttribute("aria-label"));
+                logger.info(actualPickUpDate = element.getAttribute("aria-label"));
                 element.click();
+                break;
             }
         }
         calendarDone_button.click();
@@ -130,8 +135,9 @@ public class CarsPage {
         defaultDropOffDate.click();
         for (WebElement element : allCalendarDates) {
             if (element.getAttribute("aria-label").contains(actualDropOffDate)) {
-                logger.info("actualDropOffDate: " + element.getAttribute("aria-label"));
+                logger.info(actualDropOffDate = element.getAttribute("aria-label"));
                 element.click();
+                break;
             }
         }
         calendarDone_button.click();
@@ -139,26 +145,35 @@ public class CarsPage {
     }
 
 
-    public void getCarPickUpTime(String actualTime) {
+    public String getCarPickUpTime(String actualTime) {
         select = new Select(pickUpTime_dropDown);
-        for (int i = 0; i < select.getAllSelectedOptions().size(); i++) {
+        logger.info("select size: " + select.getOptions().size());
+
+        for (int i = 0; i < select.getOptions().size(); i++) {
             pickUpTime = select.getOptions().get(i).getText();
-            if (pickUpTime.contains(actualTime)) {
+            if (pickUpTime.equalsIgnoreCase(actualTime)) {
                 logger.info("Selected pickUp Time: " + pickUpTime);
-                select.getAllSelectedOptions().get(i).click();
+                select.getOptions().get(i).click();
+                break;
             }
         }
+        return pickUpTime;
     }
 
-    public void getCarDropOffTime(String actualTime) {
+    public String getCarDropOffTime(String actualTime) {
         select = new Select(dropOffTime_dropDown);
         for (int i = 0; i < select.getAllSelectedOptions().size(); i++) {
             dropOffTime = select.getOptions().get(i).getText();
             if (dropOffTime.contains(actualTime)) {
                 logger.info("Selected dropOff Time : " + dropOffTime);
                 select.getAllSelectedOptions().get(i).click();
+                searchMainButton = searchForRentalCarsMain_button.getText();
+                logger.info("Clicked on:  " + searchMainButton);
+                searchForRentalCarsMain_button.click();
+                break;
             }
         }
+        return dropOffTime;
     }
 
 

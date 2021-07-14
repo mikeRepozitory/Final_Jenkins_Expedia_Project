@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.925">
-<testcase classname="Flight" name="Successfully rent a car in Madison WI" time="24.682">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.283">
+<testcase classname="Flight" name="Successfully rent a car in Madison WI" time="23.973">
 <system-out><![CDATA[Given user selects "Cars" rental tab........................................passed
 Then user selects pickUp location "Madison (MSN - Dane County Regional)"....passed
 Then user selects dropOff location "Madison (MSN - Dane County Regional)"...passed
 Then user selects pickUp date "Aug 31, 2021"................................passed
-Then user selects dropOff date "Sep 2, 2021"................................passed
+Then user selects dropOff date "Sep 3, 2021"................................passed
 Then user selects pickUp time "9:30 am".....................................passed
-Then user selects dropOff time "9:30 am"....................................passed
+Then user selects dropOff time "12:00 am"...................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
