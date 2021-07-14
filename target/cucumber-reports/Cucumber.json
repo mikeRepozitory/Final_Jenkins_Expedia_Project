@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-14T04:16:19.355Z",
+        "start_timestamp": "2021-07-14T04:31:17.748Z",
         "before": [
           {
             "result": {
-              "duration": 7753000000,
+              "duration": 10320000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2935000000,
+              "duration": 2792000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 516000000,
+              "duration": 442000000,
               "status": "passed"
             },
             "line": 6,
@@ -53,15 +53,15 @@
           },
           {
             "result": {
-              "duration": 2517000000,
+              "duration": 2727000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user selects pickUp location \"Madison (MSN - Dane County Regional)\"",
+            "name": "user selects pickUp location \"Washington (DCA - Ronald Reagan Washington National)\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Madison (MSN - Dane County Regional)\"",
+                  "val": "\"Washington (DCA - Ronald Reagan Washington National)\"",
                   "offset": 29
                 }
               ],
@@ -71,15 +71,15 @@
           },
           {
             "result": {
-              "duration": 1931000000,
+              "duration": 2165000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "user selects dropOff location \"Madison (MSN - Dane County Regional)\"",
+            "name": "user selects dropOff location \"Washington (DCA - Ronald Reagan Washington National)\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Madison (MSN - Dane County Regional)\"",
+                  "val": "\"Washington (DCA - Ronald Reagan Washington National)\"",
                   "offset": 30
                 }
               ],
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 1344000000,
+              "duration": 1633000000,
               "status": "passed"
             },
             "line": 9,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 897000000,
+              "duration": 1071000000,
               "status": "passed"
             },
             "line": 10,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 2327000000,
+              "duration": 2681000000,
               "status": "passed"
             },
             "line": 11,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 3725000000,
+              "duration": 4278000000,
               "status": "passed"
             },
             "line": 12,

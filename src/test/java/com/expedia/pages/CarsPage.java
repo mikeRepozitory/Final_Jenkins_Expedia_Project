@@ -128,7 +128,6 @@ public class CarsPage {
         return actualPickUpDate;
     }
 
-
     public String getCarDropOffDateOption(String actualDropOffDate) {
         dropOffDate = wait.until(ExpectedConditions.visibilityOf(defaultDropOffDate)).getAttribute("aria-label");
         logger.info("Default dropOff date:  " + dropOffDate);
@@ -143,7 +142,6 @@ public class CarsPage {
         calendarDone_button.click();
         return actualDropOffDate;
     }
-
 
     public String getCarPickUpTime(String actualTime) {
         select = new Select(pickUpTime_dropDown);

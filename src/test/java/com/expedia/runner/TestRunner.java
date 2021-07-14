@@ -15,7 +15,6 @@ import io.cucumber.testng.CucumberOptions;
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 
-
 }
 
 //h2[contains(text(),'A few of our most popular courses')]
