@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/features"},
         glue = {"com.expedia"},
         dryRun = false,
-        tags = ("@Car")
+        tags = ("@HotelForTwo")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

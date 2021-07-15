@@ -59,4 +59,7 @@ public class CarsSteps {
 
     }
 
+    @Given("user clicks on {string} tab")
+    public void userClicksOnTab(String arg0) {
+    }
 }
