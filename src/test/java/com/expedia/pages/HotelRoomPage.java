@@ -1,6 +1,5 @@
 package com.expedia.pages;
 
-import io.cucumber.java.en.Given;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -17,18 +15,6 @@ import java.util.List;
 import static com.expedia.base.Hook.driver;
 
 public class HotelRoomPage {
-    String navigationType = null;
-    Actions actions = new Actions(driver);
-    String pickUpDate = null;
-    String dropOffDate = null;
-    String tripSelectorDropOffAt = null;
-    String carPickUpTripSelector = null;
-
-    String pickUpTime = null;
-    String dropOffTime = null;
-    Select select;
-    String searchMainButton;
-
 
     WebDriverWait wait = new WebDriverWait(driver, 10);
 
@@ -39,144 +25,151 @@ public class HotelRoomPage {
         logger.info("HotelRoomPage Constructor initialized");
     }
 
-
-  /*  @FindBy(css = "[aria-controls='wizard-car-pwa']")
-    WebElement car_Tab;
-    @FindBy(xpath = "//button[@data-stid='location-field-locn-menu-trigger']")
-    WebElement defaultPickUpLocation;
-    @FindBy(xpath = "//button[@data-stid='location-field-loc2-menu-trigger']")
-    WebElement defaultDropOffLocation;
-    @FindBy(id = "location-field-locn")
-    WebElement pickUpFrom_TextBox;
-
-    @FindBy(xpath = "(//button[@data-stid='location-field-locn-result-item-button'])[1]")
-    WebElement carPickUpFrom_TextBox_option_1;
-
-    @FindBy(xpath = "(//button[@data-stid='location-field-loc2-result-item-button'])[1]")
-    WebElement carDropOffAt_TextBox_option_1;
+    String navigationType = null;
+    Actions actions = new Actions(driver);
+    String checkInDate = null;
+    String checkOutDate = null;
+    String goingToTripSelector = null;
+    String searchMainButton = null;
+    String addACarCheckBoxString = null;
+    String addFlightCheckBoxString = null;
+    String tripSelectorLeavingFrom = null;
 
 
-    @FindBy(xpath = "//button[@data-stid='location-field-loc2-menu-trigger']")
-    WebElement dropOffAt_TextBox;
-
+    @FindBy(css = "[aria-controls='wizard-hotel-pwa-v2']")
+    WebElement hotel_Tab;
+    @FindBy(css = "[data-stid='location-field-destination-menu-trigger']")
+    WebElement goingToLocation;
+    @FindBy(id = "location-field-destination")
+    WebElement goingTo_TextBox;
+    @FindBy(xpath = "(//button[@data-stid='location-field-destination-result-item-button'])[1]")
+    WebElement goingTo_TextBox_option_DropDownAfterUserSendsKeys;
     @FindBy(xpath = "(//button[@class='uitk-faux-input uitk-form-field-trigger'])[1]")
-    WebElement defaultPickUpDate;
+    WebElement defaultHotelCheckIn_date;
     @FindBy(xpath = "(//button[@class='uitk-faux-input uitk-form-field-trigger'])[2]")
-    WebElement defaultDropOffDate;
+    WebElement defaultCheckOutDate;
     @FindBy(xpath = "//td/button")
     List<WebElement> allCalendarDates;
-    @FindBy(xpath = "//div/button[text()='Done']")
+    @FindBy(xpath = "(//div/button[text()='Done'])[2]")
     WebElement calendarDone_button;
 
-    @FindBy(xpath = "//select[@aria-label='Pick-up time']")
-    WebElement pickUpTime_dropDown;
-    @FindBy(xpath = "//select[@aria-label='Drop-off time']")
-    WebElement dropOffTime_dropDown;
 
+    @FindBy(xpath = "(//label[@class='uitk-checkbox-switch-label uitk-switch-label'])[2]")
+    WebElement addACar_checkBox_WebElementLocator;
     @FindBy(xpath = "//button[text()='Search']")
-    WebElement searchForRentalCarsMain_button;
+    WebElement searchMain_button_Locator;
 
 
+    @FindBy(xpath = "(//label[@class='uitk-checkbox-switch-label uitk-switch-label'])[1]")
+    WebElement addAFlight_CheckBox_WebElement_Locator;
+    @FindBy(css = "[placeholder='Where are you leaving from?']")
+    WebElement whereAreYouLeavingFrom_TextBox;
+    @FindBy(xpath = "//span[text()='Leaving from']")
+    WebElement leavingFrom_TextBox;
+    @FindBy(xpath = "(//ul[@class=\"uitk-typeahead-results no-bullet\"]/li)[1]/button/div")
+    WebElement leavingFrom_TextBox_option_1;
+    @FindBy(xpath = "(//button[@class='uitk-faux-input'])[1]")
+    WebElement leavingFrom_TextBox_Get_ariaLabel;
 
 
-
-    public String getCarNavigation_Tab(String navigationTypeSelector) {
-        navigationType = car_Tab.getText();
+    public String getStaysNavigation_Tab(String navigationTypeSelector) {
+        navigationType = hotel_Tab.getText();
         if (navigationType.equalsIgnoreCase(navigationTypeSelector)) {
-            actions.moveToElement(car_Tab).click().build().perform();
-            logger.info("clicked on: " + navigationType + " tab");
+            actions.moveToElement(hotel_Tab).click().build().perform();
+            logger.info("clicked on: " + navigationType + "  tab");
         }
         return navigationTypeSelector;
     }
 
-    public String GetCarPickUpLocation(String actualPickUpLocation) {
-        wait.until(ExpectedConditions.visibilityOf(defaultPickUpLocation));
-        actions.moveToElement(defaultPickUpLocation).click().build().perform();
-        wait.until(ExpectedConditions.visibilityOf(pickUpFrom_TextBox));
-        actions.moveToElement(defaultPickUpLocation).sendKeys(actualPickUpLocation).build().perform();
+    public String getGoingToHotelLocation(String actualGoingToLocation) throws InterruptedException {
+        wait.until(ExpectedConditions.visibilityOf(goingToLocation));
+        logger.info("aria-label: " + goingToLocation.getAttribute("aria-label"));
 
-        wait.until(ExpectedConditions.elementToBeClickable(carPickUpFrom_TextBox_option_1));
-        actions.moveToElement(carPickUpFrom_TextBox_option_1).click().build().perform();
+        actions.moveToElement(goingToLocation).click().build().perform();
+        wait.until(ExpectedConditions.visibilityOf(goingTo_TextBox));
+        actions.moveToElement(goingToLocation).sendKeys(actualGoingToLocation).build().perform();
+        Thread.sleep(1000);
 
-        carPickUpTripSelector = wait.until(ExpectedConditions.elementToBeClickable(defaultPickUpLocation)).getText();
-        logger.info("Car pickUp location: " + carPickUpTripSelector);
-        return carPickUpTripSelector;
+        wait.until(ExpectedConditions.visibilityOf(goingTo_TextBox_option_DropDownAfterUserSendsKeys));
+        actions.moveToElement(goingTo_TextBox_option_DropDownAfterUserSendsKeys).click().build().perform();
+
+        goingToTripSelector = wait.until(ExpectedConditions.visibilityOf(goingToLocation)).getText();
+        logger.info("Actual hotel checkIn location: " + goingToTripSelector);
+        if (goingToTripSelector.contains(actualGoingToLocation)) {
+            return goingToTripSelector;
+
+        } else {
+            logger.info("Error hotel checkIn location is different: " + goingToTripSelector);
+        }
+        return goingToTripSelector;
     }
 
-    public String GetCarDropOffLocation(String actualDropOffLocation) {
-        wait.until(ExpectedConditions.visibilityOf(defaultDropOffLocation));
-        actions.moveToElement(defaultDropOffLocation).click().build().perform();
-        wait.until(ExpectedConditions.visibilityOf(dropOffAt_TextBox));
-        actions.moveToElement(defaultDropOffLocation).sendKeys(actualDropOffLocation).build().perform();
-
-        wait.until(ExpectedConditions.elementToBeClickable(carDropOffAt_TextBox_option_1));
-        actions.moveToElement(carDropOffAt_TextBox_option_1).click().build().perform();
-
-        tripSelectorDropOffAt = wait.until(ExpectedConditions.elementToBeClickable(defaultDropOffLocation)).getText();
-        logger.info("Car dropOff location: " + tripSelectorDropOffAt);
-        return tripSelectorDropOffAt;
-    }
-
-    public String carPickUpDateOption(String actualPickUpDate) {
-        pickUpDate = wait.until(ExpectedConditions.visibilityOf(defaultPickUpDate)).getAttribute("aria-label");
-        logger.info("Default pickUp date:  " + pickUpDate);
-        defaultPickUpDate.click();
+    public String getHotelCheckIn_DateOption(String actualHotelCheckIn) {
+        checkInDate = wait.until(ExpectedConditions.visibilityOf(defaultHotelCheckIn_date)).getText();
+        logger.info("Default checkIn date:  " + checkInDate);
+        wait.until(ExpectedConditions.visibilityOf(defaultHotelCheckIn_date)).click();
         for (WebElement element : allCalendarDates) {
-            if (element.getAttribute("aria-label").contains(actualPickUpDate)) {
-                logger.info(actualPickUpDate = element.getAttribute("aria-label"));
+            if (element.getAttribute("aria-label").contains(actualHotelCheckIn)) {
+                logger.info(actualHotelCheckIn = element.getAttribute("aria-label"));
                 element.click();
                 break;
             }
         }
-        calendarDone_button.click();
-        return actualPickUpDate;
+        wait.until(ExpectedConditions.elementToBeClickable(calendarDone_button)).click();
+        return actualHotelCheckIn;
     }
 
-    public String getCarDropOffDateOption(String actualDropOffDate) {
-        dropOffDate = wait.until(ExpectedConditions.visibilityOf(defaultDropOffDate)).getAttribute("aria-label");
-        logger.info("Default dropOff date:  " + dropOffDate);
-        defaultDropOffDate.click();
+    public String getHotelCheckOut_DateOption(String actualCheckOutDate) {
+        checkOutDate = wait.until(ExpectedConditions.visibilityOf(defaultCheckOutDate)).getText();
+        logger.info("Default checkOut date:  " + checkOutDate);
+        wait.until(ExpectedConditions.visibilityOf(defaultCheckOutDate)).click();
         for (WebElement element : allCalendarDates) {
-            if (element.getAttribute("aria-label").contains(actualDropOffDate)) {
-                logger.info(actualDropOffDate = element.getAttribute("aria-label"));
+            if (element.getAttribute("aria-label").contains(actualCheckOutDate)) {
+                logger.info(actualCheckOutDate = element.getAttribute("aria-label"));
                 element.click();
                 break;
             }
         }
-        calendarDone_button.click();
-        return actualDropOffDate;
+        wait.until(ExpectedConditions.elementToBeClickable(calendarDone_button)).click();
+        return actualCheckOutDate;
     }
 
-    public String getCarPickUpTime(String actualTime) {
-        select = new Select(pickUpTime_dropDown);
-        logger.info("select size: " + select.getOptions().size());
-
-        for (int i = 0; i < select.getOptions().size(); i++) {
-            pickUpTime = select.getOptions().get(i).getText();
-            if (pickUpTime.equalsIgnoreCase(actualTime)) {
-                logger.info("Selected pickUp Time: " + pickUpTime);
-                select.getOptions().get(i).click();
-                break;
-            }
+    public String addACar(String addOption) {
+        addACarCheckBoxString = wait.until(ExpectedConditions.visibilityOf(addACar_checkBox_WebElementLocator)).getText();
+        logger.info("addACarCheckBoxString: " + addACarCheckBoxString);
+        if (addACar_checkBox_WebElementLocator.getText().contains(addOption)) {
+            addACar_checkBox_WebElementLocator.click();
         }
-        return pickUpTime;
+        return addACarCheckBoxString;
     }
 
-    public String getCarDropOffTime(String actualTime) {
-        select = new Select(dropOffTime_dropDown);
-        for (int i = 0; i < select.getAllSelectedOptions().size(); i++) {
-            dropOffTime = select.getOptions().get(i).getText();
-            if (dropOffTime.contains(actualTime)) {
-                logger.info("Selected dropOff Time : " + dropOffTime);
-                select.getAllSelectedOptions().get(i).click();
-                searchMainButton = searchForRentalCarsMain_button.getText();
-                logger.info("Clicked on:  " + searchMainButton);
-                searchForRentalCarsMain_button.click();
-                break;
-            }
+    public String removeTheCar(String removeOption) throws InterruptedException {
+        removeOption = wait.until(ExpectedConditions.visibilityOf(addACar_checkBox_WebElementLocator)).getText();
+        logger.info("remove the car if selected: " + addACarCheckBoxString);
+        if (addACar_checkBox_WebElementLocator.isEnabled()) {
+            addACar_checkBox_WebElementLocator.click();
         }
-        return dropOffTime;
+
+        Thread.sleep(4000);
+        return removeOption;
     }
-*/
+
+
+
+    public String clickOnSearch_MainButton(String actualSearchMainButton) {
+        searchMainButton = searchMain_button_Locator.getText();
+        if (searchMainButton.contains(actualSearchMainButton)) {
+            logger.info("Clicked on:  " + searchMainButton);
+            wait.until(ExpectedConditions.visibilityOf(searchMain_button_Locator)).click();
+        } else {
+            logger.info("Button is not found:  " + searchMainButton);
+
+        }
+        return actualSearchMainButton;
+
+    }
+
 
 }
+
+

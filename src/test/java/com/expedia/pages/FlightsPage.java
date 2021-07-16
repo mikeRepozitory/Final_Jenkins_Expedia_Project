@@ -119,7 +119,7 @@ public class FlightsPage implements Serializable {
         return tripSelectorLeavingFrom;
     }
 
-    public String selectTripTypeFrom_option(String tripTypeSelector) throws InterruptedException {
+    public String selectLeavingFrom_option(String tripTypeSelector) throws InterruptedException {
         wait.until(ExpectedConditions.visibilityOf(leavingFrom_TextBox));
         actions.moveToElement(leavingFrom_TextBox).click().build().perform();
         Thread.sleep(500);

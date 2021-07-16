@@ -1,0 +1,13 @@
+2021-07-15 20:42:31 INFO  Hook:38 - Log4j Configured
+2021-07-15 20:42:31 INFO  HotelRoomPage:25 - HotelRoomPage Constructor initialized
+2021-07-15 20:42:32 INFO  HotelRoomPage:80 - clicked on: Stays  tab
+2021-07-15 20:42:32 INFO  HotelRoomPage:87 - aria-label: Going to
+2021-07-15 20:42:35 INFO  HotelRoomPage:98 - Actual hotel checkIn location: Madison (MSN - Dane County Regional)
+2021-07-15 20:42:35 INFO  HotelRoomPage:110 - Default checkIn date:  Jul 29
+2021-07-15 20:42:36 INFO  HotelRoomPage:114 - Aug 31, 2021
+2021-07-15 20:42:36 INFO  HotelRoomPage:125 - Default checkOut date:  Sep 1
+2021-07-15 20:42:37 INFO  HotelRoomPage:129 - Sep 3, 2021
+2021-07-15 20:42:37 INFO  HotelRoomPage:140 - addACarCheckBoxString: Add a car
+2021-07-15 20:42:38 INFO  HotelRoomPage:150 -  clicked on: Add a flight
+2021-07-15 20:42:39 INFO  Hook:46 - After SCENARIO
+2021-07-15 20:42:41 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

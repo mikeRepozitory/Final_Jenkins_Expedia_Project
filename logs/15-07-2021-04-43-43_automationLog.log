@@ -1,0 +1,12 @@
+2021-07-15 16:43:43 INFO  Hook:38 - Log4j Configured
+2021-07-15 16:43:43 INFO  HotelRoomPage:68 - HotelRoomPage Constructor initialized
+2021-07-15 16:43:44 INFO  HotelRoomPage:75 - clicked on: Stays  tab
+2021-07-15 16:43:44 INFO  HotelRoomPage:82 - aria-label: Going to
+2021-07-15 16:43:47 INFO  HotelRoomPage:93 - Actual hotel checkIn location: Madison (MSN - Dane County Regional)
+2021-07-15 16:43:47 INFO  HotelRoomPage:105 - Default checkIn date:  Jul 29
+2021-07-15 16:43:48 INFO  HotelRoomPage:109 - Aug 31, 2021
+2021-07-15 16:43:48 INFO  HotelRoomPage:120 - Default checkOut date:  Sep 1
+2021-07-15 16:43:49 INFO  HotelRoomPage:124 - Sep 3, 2021
+2021-07-15 16:45:20 INFO  Hook:46 - After SCENARIO
+2021-07-15 16:45:22 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
+2021-07-15 16:45:23 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

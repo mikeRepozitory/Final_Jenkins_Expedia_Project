@@ -1,0 +1,9 @@
+2021-07-15 15:32:27 INFO  Hook:38 - Log4j Configured
+2021-07-15 15:32:27 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
+2021-07-15 15:32:27 INFO  HotelRoomPage:62 - clicked on: Stays  tab
+2021-07-15 15:32:27 INFO  HotelRoomPage:69 - aria-label: Going to
+2021-07-15 15:32:30 INFO  HotelRoomPage:79 - Hotel checkIn location: Going to Madison (MSN - Dane County Regional)
+2021-07-15 15:32:30 INFO  Hook:46 - After SCENARIO
+2021-07-15 15:32:32 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
+2021-07-15 15:32:33 INFO  Hook:21 - BEFORE SCENARIO
+2021-07-15 15:32:38 INFO  Hook:28 - website open 

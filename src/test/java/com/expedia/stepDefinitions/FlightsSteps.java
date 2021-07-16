@@ -25,7 +25,7 @@ public class FlightsSteps {
 
     @Then("user selects from {string}")
     public void userSelectsFrom(String from) throws InterruptedException {
-        flightsPage.selectTripTypeFrom_option(from);
+        flightsPage.selectLeavingFrom_option(from);
     }
 
     @Then("user selects to {string}")

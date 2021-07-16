@@ -29,7 +29,6 @@ public class CarsSteps {
     public void userSelectsDropOffLocation(String dropOffLocation) throws InterruptedException {
         String result = carsPage.GetCarDropOffLocation(dropOffLocation);
         Assert.assertEquals(dropOffLocation, result);
-
     }
 
 
@@ -59,7 +58,5 @@ public class CarsSteps {
 
     }
 
-    @Given("user clicks on {string} tab")
-    public void userClicksOnTab(String arg0) {
-    }
+
 }

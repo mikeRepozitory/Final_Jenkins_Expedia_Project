@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-14T04:31:17.748Z",
+        "start_timestamp": "2021-07-16T02:55:29.756Z",
         "before": [
           {
             "result": {
-              "duration": 10320000000,
+              "duration": 8263000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 5,
-        "name": "Successfully rent a car in Madison WI",
+        "name": "User Successfully tests that all nav tabs open the right page",
         "description": "",
-        "id": "flight;successfully-rent-a-car-in-madison-wi",
+        "id": "maintabs;user-successfully-tests-that-all-nav-tabs-open-the-right-page",
         "after": [
           {
             "result": {
-              "duration": 2792000000,
+              "duration": 2756000000,
               "status": "passed"
             },
             "match": {
@@ -35,149 +35,131 @@
         "steps": [
           {
             "result": {
-              "duration": 442000000,
+              "duration": 625000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user selects \"Cars\" rental tab",
+            "name": "user selects  Stays \"Stays\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Cars\"",
-                  "offset": 13
+                  "val": "\"Stays\"",
+                  "offset": 20
                 }
               ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsRentalTab(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsStaysTab(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2727000000,
+              "duration": 302000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user selects pickUp location \"Washington (DCA - Ronald Reagan Washington National)\"",
+            "name": "user selects Flights \"Flights\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Washington (DCA - Ronald Reagan Washington National)\"",
-                  "offset": 29
+                  "val": "\"Flights\"",
+                  "offset": 21
                 }
               ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsPickUpLocation(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsFlightsTab(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2165000000,
+              "duration": 569000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "user selects dropOff location \"Washington (DCA - Ronald Reagan Washington National)\"",
+            "name": "user selects Cars \"Cars\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Washington (DCA - Ronald Reagan Washington National)\"",
-                  "offset": 30
+                  "val": "\"Cars\"",
+                  "offset": 18
                 }
               ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsDropOffLocation(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsCarsTab(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1633000000,
+              "duration": 361000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "user selects pickUp date \"Aug 31, 2021\"",
+            "name": "user selects Packages \"Packages\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Aug 31, 2021\"",
-                  "offset": 25
+                  "val": "\"Packages\"",
+                  "offset": 22
                 }
               ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsPickUpDate(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsPackagesTab(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1071000000,
+              "duration": 282000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "user selects dropOff date \"Sep 3, 2021\"",
+            "name": "user selects  Things to do \"Things to do\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Sep 3, 2021\"",
-                  "offset": 26
+                  "val": "\"Things to do\"",
+                  "offset": 27
                 }
               ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsDropOffDate(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsThingsToDoTab(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2681000000,
+              "duration": 415000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "user selects pickUp time \"9:30 am\"",
+            "name": "user selects Cruises \"Cruises\" tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"9:30 am\"",
-                  "offset": 25
+                  "val": "\"Cruises\"",
+                  "offset": 21
                 }
               ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsPickUpTime(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsCruisesTab(java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4278000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user selects dropOff time \"12:00 am\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12:00 am\"",
-                  "offset": 26
-                }
-              ],
-              "location": "com.expedia.stepDefinitions.CarsSteps.userSelectsDropOffTime(java.lang.String)"
-            },
-            "keyword": "Then "
+            "keyword": "Given "
           }
         ],
         "tags": [
           {
-            "name": "@RentalCar"
+            "name": "@AllNavTabs"
           },
           {
-            "name": "@Car"
+            "name": "@Tabs"
           }
         ]
       }
     ],
-    "name": "Flight",
+    "name": "MainTabs",
     "description": "",
-    "id": "flight",
+    "id": "maintabs",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Cars.feature",
+    "uri": "file:src/test/resources/features/AllNavTabs.feature",
     "tags": [
       {
-        "name": "@RentalCar",
+        "name": "@AllNavTabs",
         "type": "Tag",
         "location": {
           "line": 1,

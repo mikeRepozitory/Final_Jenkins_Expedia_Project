@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.396">
-<testcase classname="Flight" name="Successfully rent a car in Madison WI" time="28.133">
-<system-out><![CDATA[Given user selects "Cars" rental tab........................................passed
-Then user selects pickUp location "Washington (DCA - Ronald Reagan Washington National)".passed
-Then user selects dropOff location "Washington (DCA - Ronald Reagan Washington National)".passed
-Then user selects pickUp date "Aug 31, 2021"................................passed
-Then user selects dropOff date "Sep 3, 2021"................................passed
-Then user selects pickUp time "9:30 am".....................................passed
-Then user selects dropOff time "12:00 am"...................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.88">
+<testcase classname="MainTabs" name="User Successfully tests that all nav tabs open the right page" time="13.588">
+<system-out><![CDATA[Given user selects  Stays "Stays" tab.......................................passed
+Given user selects Flights "Flights" tab....................................passed
+Given user selects Cars "Cars" tab..........................................passed
+Given user selects Packages "Packages" tab..................................passed
+Given user selects  Things to do "Things to do" tab.........................passed
+Given user selects Cruises "Cruises" tab....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

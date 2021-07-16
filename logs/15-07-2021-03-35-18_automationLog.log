@@ -1,0 +1,9 @@
+2021-07-15 15:35:18 INFO  Hook:38 - Log4j Configured
+2021-07-15 15:35:18 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
+2021-07-15 15:35:18 INFO  HotelRoomPage:62 - clicked on: Stays  tab
+2021-07-15 15:35:19 INFO  HotelRoomPage:69 - aria-label: Going to
+2021-07-15 15:35:22 INFO  HotelRoomPage:79 - Hotel checkIn location: Going to MSN, International Lane, Madison, Dane County, WI, USA
+2021-07-15 15:35:22 INFO  Hook:46 - After SCENARIO
+2021-07-15 15:35:24 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
+2021-07-15 15:35:25 INFO  Hook:21 - BEFORE SCENARIO
+2021-07-15 15:35:29 INFO  Hook:28 - website open 

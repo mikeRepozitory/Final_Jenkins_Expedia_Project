@@ -1,0 +1,8 @@
+2021-07-15 14:01:59 INFO  Hook:38 - Log4j Configured
+2021-07-15 14:01:59 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
+2021-07-15 14:01:59 INFO  HotelRoomPage:62 - clicked on: Stays  tab
+2021-07-15 14:02:01 INFO  HotelRoomPage:77 - Hotel checkIn location: 
+2021-07-15 14:02:01 INFO  Hook:46 - After SCENARIO
+2021-07-15 14:02:03 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
+2021-07-15 14:02:04 INFO  Hook:21 - BEFORE SCENARIO
+2021-07-15 14:02:09 INFO  Hook:28 - website open 

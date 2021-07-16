@@ -1,4 +1,4 @@
-@RentalCar
+@RentalCarSmokeTest
 Feature: Flight
 
   @Car
