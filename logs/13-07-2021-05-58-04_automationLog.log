@@ -1,6 +1,0 @@
-2021-07-13 17:58:04 INFO  Hook:38 - Log4j Configured
-2021-07-13 17:58:04 INFO  CarsPage:31 - carPage Constructor initialized
-2021-07-13 17:58:05 INFO  CarsPage:64 - clicked on: Cars
-2021-07-13 17:58:08 INFO  CarsPage:79 - Leaving from: Madison (MSN - Dane County Regional)
-2021-07-13 17:58:19 INFO  Hook:46 - After SCENARIO
-2021-07-13 17:58:21 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

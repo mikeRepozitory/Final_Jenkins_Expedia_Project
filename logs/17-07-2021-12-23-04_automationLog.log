@@ -1,5 +1,0 @@
-2021-07-17 00:23:04 INFO  Hook:38 - Log4j Configured
-2021-07-17 00:23:04 INFO  AllHeaderNavTabsPage:29 - carPage Constructor initialized
-2021-07-17 00:23:09 INFO  AllHeaderNavTabsPage:53 - clicked on: Stays  tab   URL: https://www.expedia.com/Hotels
-2021-07-17 00:23:09 INFO  Hook:46 - After SCENARIO
-2021-07-17 00:23:11 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

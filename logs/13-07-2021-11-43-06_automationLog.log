@@ -1,9 +1,0 @@
-2021-07-13 23:43:06 INFO  Hook:38 - Log4j Configured
-2021-07-13 23:43:07 INFO  CarsPage:38 - carPage Constructor initialized
-2021-07-13 23:43:07 INFO  CarsPage:83 - clicked on: Cars tab
-2021-07-13 23:43:10 INFO  CarsPage:98 - Car pickUp location: Madison (MSN - Dane County Regional)
-2021-07-13 23:43:12 INFO  CarsPage:112 - Car dropOff location: Madison (MSN - Dane County Regional)
-2021-07-13 23:43:12 INFO  CarsPage:118 - Default pickUp date:  Pick-up date July 27, 2021
-2021-07-13 23:43:13 INFO  CarsPage:122 - actualPickUpDate:  Aug 31, 2021
-2021-07-13 23:43:13 INFO  Hook:46 - After SCENARIO
-2021-07-13 23:43:15 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

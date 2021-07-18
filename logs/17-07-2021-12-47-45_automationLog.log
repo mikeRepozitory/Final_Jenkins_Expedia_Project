@@ -1,5 +1,0 @@
-2021-07-17 00:47:45 INFO  Hook:38 - Log4j Configured
-2021-07-17 00:47:45 INFO  AllHeaderNavTabsPage:30 - AllHeaderNavTabsPage Constructor initialized
-2021-07-17 00:47:48 INFO  AllHeaderNavTabsPage:54 - clicked on: Stays
-2021-07-17 00:47:50 INFO  Hook:46 - After SCENARIO
-2021-07-17 00:47:52 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

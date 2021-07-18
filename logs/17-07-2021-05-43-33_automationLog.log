@@ -1,6 +1,0 @@
-2021-07-17 17:43:33 INFO  Hook:38 - Log4j Configured
-2021-07-17 17:43:33 INFO  MoreTravelHeaderNavTabsPage:25 - AllHeaderNavTabsPage Constructor initialized
-2021-07-17 17:43:33 INFO  HereToHelpYouOnTheMoveTabs:28 - HereToHelpYouOnTheMoveTabs Constructor initialized
-2021-07-17 17:43:34 INFO  HereToHelpYouOnTheMoveTabs:62 - Clicked on: Use a credit or coupon
-2021-07-17 17:43:37 INFO  Hook:46 - After SCENARIO
-2021-07-17 17:43:39 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

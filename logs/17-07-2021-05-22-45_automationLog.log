@@ -1,5 +1,0 @@
-2021-07-17 17:22:45 INFO  Hook:38 - Log4j Configured
-2021-07-17 17:22:45 INFO  CancelTripPage:29 - CancelTripPage Constructor initialized
-2021-07-17 17:22:50 INFO  CancelTripPage:47 - Clicked on: Change or cancel a trip
-2021-07-17 17:23:41 INFO  Hook:46 - After SCENARIO
-2021-07-17 17:23:43 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

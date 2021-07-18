@@ -1,9 +1,0 @@
-2021-07-15 15:08:47 INFO  Hook:38 - Log4j Configured
-2021-07-15 15:08:47 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
-2021-07-15 15:08:47 INFO  HotelRoomPage:62 - clicked on: Stays  tab
-2021-07-15 15:08:49 ERROR HotelRoomPage:79 - Destination not found error: 
-2021-07-15 15:08:49 ERROR HotelRoomPage:79 - Destination not found error: 
-2021-07-15 15:08:49 INFO  Hook:46 - After SCENARIO
-2021-07-15 15:08:51 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-15 15:08:52 INFO  Hook:21 - BEFORE SCENARIO
-2021-07-15 15:08:55 INFO  Hook:28 - website open 

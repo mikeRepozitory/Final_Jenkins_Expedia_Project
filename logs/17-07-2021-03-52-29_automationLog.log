@@ -1,8 +1,0 @@
-2021-07-17 15:52:29 INFO  Hook:38 - Log4j Configured
-2021-07-17 15:52:29 INFO  CancelTripPage:29 - CancelTripPage Constructor initialized
-2021-07-17 15:52:30 INFO  CancelTripPage:45 - Clicked on: Change or cancel a trip
-Make updates to your itinerary or cancel a booking
-Change or cancel a trip
-2021-07-17 15:54:01 INFO  Hook:46 - After SCENARIO
-2021-07-17 15:54:03 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-17 15:54:04 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

@@ -1,9 +1,0 @@
-2021-07-17 21:36:49 INFO  Hook:38 - Log4j Configured
-2021-07-17 21:36:49 INFO  MainPageHeaderTabsPage:31 - carPage Constructor initialized
-2021-07-17 21:36:50 INFO  MainPageHeaderTabsPage:49 - clicked on: English tab
-2021-07-17 21:36:50 INFO  MainPageHeaderTabsPage:64 - select size: 41
-2021-07-17 21:36:50 INFO  MainPageHeaderTabsPage:68 - selectDropDownOptions: United Kingdom
-2021-07-17 21:36:50 INFO  MainPageHeaderTabsPage:79 - select size: 3
-2021-07-17 21:36:50 INFO  MainPageHeaderTabsPage:83 - selectDropDownOptions: English
-2021-07-17 21:36:50 INFO  Hook:46 - After SCENARIO
-2021-07-17 21:36:52 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

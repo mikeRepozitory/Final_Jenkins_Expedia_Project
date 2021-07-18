@@ -1,7 +1,0 @@
-2021-07-13 18:16:45 INFO  Hook:38 - Log4j Configured
-2021-07-13 18:16:45 INFO  CarsPage:31 - carPage Constructor initialized
-2021-07-13 18:16:46 INFO  CarsPage:67 - clicked on: Cars
-2021-07-13 18:16:49 INFO  CarsPage:82 - Car pickUp location: Madison (MSN - Dane County Regional)
-2021-07-13 18:18:22 INFO  Hook:46 - After SCENARIO
-2021-07-13 18:18:24 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-13 18:18:25 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

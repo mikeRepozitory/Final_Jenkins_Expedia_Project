@@ -1,8 +1,0 @@
-2021-07-15 15:19:09 INFO  Hook:38 - Log4j Configured
-2021-07-15 15:19:09 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
-2021-07-15 15:19:10 INFO  HotelRoomPage:62 - clicked on: Stays  tab
-2021-07-15 15:19:13 ERROR HotelRoomPage:79 - Destination not found error: Kissimmee
-2021-07-15 15:19:13 INFO  Hook:46 - After SCENARIO
-2021-07-15 15:19:15 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-15 15:19:15 INFO  Hook:21 - BEFORE SCENARIO
-2021-07-15 15:19:20 INFO  Hook:28 - website open 

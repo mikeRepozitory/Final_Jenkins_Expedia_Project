@@ -1,6 +1,0 @@
-2021-07-15 08:18:34 INFO  Hook:38 - Log4j Configured
-2021-07-15 08:18:34 INFO  HotelRoomPage:76 - HotelRoomPage Constructor initialized
-2021-07-15 08:18:34 INFO  HotelRoomPage:84 - clicked on: Stays  tab
-2021-07-15 08:20:07 INFO  Hook:46 - After SCENARIO
-2021-07-15 08:20:09 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-15 08:20:10 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

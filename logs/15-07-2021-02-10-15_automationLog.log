@@ -1,8 +1,0 @@
-2021-07-15 14:10:15 INFO  Hook:38 - Log4j Configured
-2021-07-15 14:10:15 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
-2021-07-15 14:10:15 INFO  HotelRoomPage:62 - clicked on: Stays  tab
-2021-07-15 14:10:17 INFO  HotelRoomPage:76 - Hotel checkIn location: Miami
-2021-07-15 14:10:17 INFO  Hook:46 - After SCENARIO
-2021-07-15 14:10:19 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-15 14:10:20 INFO  Hook:21 - BEFORE SCENARIO
-2021-07-15 14:10:23 INFO  Hook:28 - website open 

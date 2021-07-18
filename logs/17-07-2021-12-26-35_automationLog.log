@@ -1,3 +1,0 @@
-2021-07-17 00:26:35 INFO  Hook:38 - Log4j Configured
-2021-07-17 00:26:35 INFO  AllHeaderNavTabsPage:29 - carPage Constructor initialized
-2021-07-17 00:30:16 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

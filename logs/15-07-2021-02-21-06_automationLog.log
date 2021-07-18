@@ -1,9 +1,0 @@
-2021-07-15 14:21:06 INFO  Hook:38 - Log4j Configured
-2021-07-15 14:21:06 INFO  HotelRoomPage:55 - HotelRoomPage Constructor initialized
-2021-07-15 14:21:06 INFO  HotelRoomPage:62 - clicked on: Stays  tab
-2021-07-15 14:21:09 ERROR HotelRoomPage:79 - Destination not found error: Wisconsin, United States
-2021-07-15 14:21:09 INFO  HotelRoomPage:83 - Hotel checkIn location: 
-2021-07-15 14:21:09 INFO  Hook:46 - After SCENARIO
-2021-07-15 14:21:11 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-15 14:21:12 INFO  Hook:21 - BEFORE SCENARIO
-2021-07-15 14:21:15 INFO  Hook:28 - website open 

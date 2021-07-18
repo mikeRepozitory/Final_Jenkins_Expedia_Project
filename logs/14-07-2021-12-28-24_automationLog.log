@@ -1,6 +1,0 @@
-2021-07-14 00:28:24 INFO  Hook:38 - Log4j Configured
-2021-07-14 00:28:24 INFO  CarsPage:38 - carPage Constructor initialized
-2021-07-14 00:28:25 INFO  CarsPage:83 - clicked on: Cars tab
-2021-07-14 00:28:27 INFO  CarsPage:98 - Car pickUp location: Washington (DCA - Ronald Reagan Washington National)
-2021-07-14 00:28:27 INFO  Hook:46 - After SCENARIO
-2021-07-14 00:28:30 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
