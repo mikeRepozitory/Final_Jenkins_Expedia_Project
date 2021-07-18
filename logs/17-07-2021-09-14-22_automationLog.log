@@ -1,0 +1,46 @@
+2021-07-17 21:14:22 INFO  Hook:38 - Log4j Configured
+2021-07-17 21:14:22 INFO  MainPageHeaderTabsPage:30 - carPage Constructor initialized
+2021-07-17 21:14:23 INFO  MainPageHeaderTabsPage:44 - clicked on: English tab
+2021-07-17 21:14:23 INFO  MainPageHeaderTabsPage:62 - selectDropDownOptions: United States
+United Kingdom
+Canada
+Germany
+Italy
+Spain
+Netherlands
+Mexico
+Singapore
+Malaysia
+South Korea
+Thailand
+Hong Kong SAR
+France
+Australia
+India
+Japan
+New Zealand
+Indonesia
+Taiwan
+Ireland
+Belgium
+Sweden
+Norway
+Denmark
+Philippines
+Brazil
+Argentina
+Vietnam
+Switzerland
+Finland
+Euro
+United Arab Emirates
+Saudi Arabia
+Peru
+Chile
+Colombia
+Egypt
+Costa Rica
+China
+Austria  is displayed
+2021-07-17 21:14:23 INFO  Hook:46 - After SCENARIO
+2021-07-17 21:14:25 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

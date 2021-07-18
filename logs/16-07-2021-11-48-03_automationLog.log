@@ -1,0 +1,10 @@
+2021-07-16 23:48:03 INFO  Hook:38 - Log4j Configured
+2021-07-16 23:48:03 INFO  AllNavTabsPage:27 - carPage Constructor initialized
+2021-07-16 23:48:04 INFO  AllNavTabsPage:40 - clicked on: Stays tab
+2021-07-16 23:48:05 INFO  AllNavTabsPage:40 - clicked on: Flights tab
+2021-07-16 23:48:05 INFO  AllNavTabsPage:40 - clicked on: Cars tab
+2021-07-16 23:48:06 INFO  AllNavTabsPage:40 - clicked on: Packages tab
+2021-07-16 23:48:06 INFO  AllNavTabsPage:40 - clicked on: Things to do tab
+2021-07-16 23:48:07 INFO  AllNavTabsPage:40 - clicked on: Cruises tab
+2021-07-16 23:48:07 INFO  Hook:46 - After SCENARIO
+2021-07-16 23:48:09 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

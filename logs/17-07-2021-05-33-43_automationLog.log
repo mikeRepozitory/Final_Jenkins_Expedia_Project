@@ -1,0 +1,6 @@
+2021-07-17 17:33:43 INFO  Hook:38 - Log4j Configured
+2021-07-17 17:33:43 INFO  HereToHelpYouOnTheMoveTabs:28 - CancelTripPage Constructor initialized
+2021-07-17 17:33:48 INFO  HereToHelpYouOnTheMoveTabs:47 - Clicked on: Change or cancel a trip
+2021-07-17 17:34:19 INFO  Hook:46 - After SCENARIO
+2021-07-17 17:34:22 DEBUG PoolThreadCache:224 - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+2021-07-17 17:34:22 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

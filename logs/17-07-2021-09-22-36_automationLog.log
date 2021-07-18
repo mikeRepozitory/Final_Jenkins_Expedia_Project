@@ -1,0 +1,6 @@
+2021-07-17 21:22:36 INFO  Hook:38 - Log4j Configured
+2021-07-17 21:22:36 INFO  MainPageHeaderTabsPage:30 - carPage Constructor initialized
+2021-07-17 21:22:36 INFO  MainPageHeaderTabsPage:44 - clicked on: English tab
+2021-07-17 21:22:36 INFO  MainPageHeaderTabsPage:66 - Error
+2021-07-17 21:22:37 INFO  Hook:46 - After SCENARIO
+2021-07-17 21:22:39 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

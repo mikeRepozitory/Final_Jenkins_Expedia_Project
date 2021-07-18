@@ -1,0 +1,108 @@
+2021-07-17 19:45:40 INFO  Hook:38 - Log4j Configured
+2021-07-17 19:45:41 INFO  MainPageHeaderTabsPage:30 - carPage Constructor initialized
+2021-07-17 19:45:41 INFO  MainPageHeaderTabsPage:44 - clicked on: English tab
+2021-07-17 19:45:41 INFO  MainPageHeaderTabsPage:50 - window: Display settings
+You can only access your trip information and Expedia Rewards points from the Expedia site you booked on.
+Region
+United States
+United Kingdom
+Canada
+Germany
+Italy
+Spain
+Netherlands
+Mexico
+Singapore
+Malaysia
+South Korea
+Thailand
+Hong Kong SAR
+France
+Australia
+India
+Japan
+New Zealand
+Indonesia
+Taiwan
+Ireland
+Belgium
+Sweden
+Norway
+Denmark
+Philippines
+Brazil
+Argentina
+Vietnam
+Switzerland
+Finland
+Euro
+United Arab Emirates
+Saudi Arabia
+Peru
+Chile
+Colombia
+Egypt
+Costa Rica
+China
+Austria
+Language
+English
+Español
+简体中文
+Currency
+AED د.إ
+ARS $
+CLP $
+CNY ¥
+COP $
+EGP £
+ISK kr
+MXN $
+PEN S/.
+SAR ﷼
+USD $
+ZAR R
+Save tab is displayed
+2021-07-17 19:45:41 INFO  MainPageHeaderTabsPage:62 - selectDropDownOptions: United States
+United Kingdom
+Canada
+Germany
+Italy
+Spain
+Netherlands
+Mexico
+Singapore
+Malaysia
+South Korea
+Thailand
+Hong Kong SAR
+France
+Australia
+India
+Japan
+New Zealand
+Indonesia
+Taiwan
+Ireland
+Belgium
+Sweden
+Norway
+Denmark
+Philippines
+Brazil
+Argentina
+Vietnam
+Switzerland
+Finland
+Euro
+United Arab Emirates
+Saudi Arabia
+Peru
+Chile
+Colombia
+Egypt
+Costa Rica
+China
+Austria  is displayed
+2021-07-17 19:45:41 INFO  Hook:46 - After SCENARIO
+2021-07-17 19:45:43 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

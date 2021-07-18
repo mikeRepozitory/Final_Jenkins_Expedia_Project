@@ -1,0 +1,5 @@
+2021-07-17 02:30:43 INFO  Hook:38 - Log4j Configured
+2021-07-17 02:30:43 INFO  AllHeaderNavTabsPage:31 - AllHeaderNavTabsPage Constructor initialized
+2021-07-17 02:31:00 INFO  Hook:46 - After SCENARIO
+2021-07-17 02:31:03 DEBUG PoolThreadCache:224 - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+2021-07-17 02:31:03 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

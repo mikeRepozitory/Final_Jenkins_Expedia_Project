@@ -1,0 +1,17 @@
+2021-07-17 14:37:31 INFO  Hook:38 - Log4j Configured
+2021-07-17 14:37:31 INFO  MoreTravelHeaderNavTabsPage:30 - AllHeaderNavTabsPage Constructor initialized
+2021-07-17 14:37:34 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Stays
+2021-07-17 14:37:36 INFO  MoreTravelHeaderNavTabsPage:51 - URL is: https://www.expedia.com/Hotels
+2021-07-17 14:37:39 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Flights
+2021-07-17 14:37:41 INFO  MoreTravelHeaderNavTabsPage:51 - URL is: https://www.expedia.com/Flights
+2021-07-17 14:37:44 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Cars
+2021-07-17 14:37:46 INFO  MoreTravelHeaderNavTabsPage:51 - URL is: https://www.expedia.com/Cars
+2021-07-17 14:37:49 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Packages
+2021-07-17 14:37:51 INFO  MoreTravelHeaderNavTabsPage:51 - URL is: https://www.expedia.com/Vacation-Packages
+2021-07-17 14:37:53 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Things to do
+2021-07-17 14:37:55 INFO  MoreTravelHeaderNavTabsPage:51 - URL is: https://www.expedia.com/Activities
+2021-07-17 14:37:57 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Cruises
+2021-07-17 14:37:59 INFO  MoreTravelHeaderNavTabsPage:51 - URL is: https://www.expedia.com/Cruises
+2021-07-17 14:38:01 INFO  MoreTravelHeaderNavTabsPage:47 - clicked on: Deals
+2021-07-17 14:38:03 INFO  Hook:46 - After SCENARIO
+2021-07-17 14:38:05 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

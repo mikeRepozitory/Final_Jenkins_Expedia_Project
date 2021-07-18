@@ -1,0 +1,4 @@
+2021-07-17 00:14:13 INFO  Hook:38 - Log4j Configured
+2021-07-17 00:14:13 INFO  AllHeaderNavTabsPage:29 - carPage Constructor initialized
+2021-07-17 00:14:59 INFO  Hook:46 - After SCENARIO
+2021-07-17 00:15:01 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-16T02:55:29.756Z",
+        "start_timestamp": "2021-07-18T01:36:43.306Z",
         "before": [
           {
             "result": {
-              "duration": 8263000000,
+              "duration": 6119000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 5,
-        "name": "User Successfully tests that all nav tabs open the right page",
+        "name": "check the English language header tab and region to United Kingdom",
         "description": "",
-        "id": "maintabs;user-successfully-tests-that-all-nav-tabs-open-the-right-page",
+        "id": "main-page;check-the-english-language-header-tab-and-region-to-united-kingdom",
         "after": [
           {
             "result": {
-              "duration": 2756000000,
+              "duration": 2748000000,
               "status": "passed"
             },
             "match": {
@@ -35,131 +35,106 @@
         "steps": [
           {
             "result": {
-              "duration": 625000000,
+              "duration": 613000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user selects  Stays \"Stays\" tab",
+            "name": "use is on main page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Stays\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsStaysTab(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.MainPageHeaderTabsSteps.useIsOnMainPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 302000000,
+              "duration": 136000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user selects Flights \"Flights\" tab",
+            "name": "user clicks on English and a new popUp window should be displayed \"true\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Flights\"",
-                  "offset": 21
+                  "val": "\"true\"",
+                  "offset": 66
                 }
               ],
-              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsFlightsTab(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.MainPageHeaderTabsSteps.userClicksOnEnglishAndANewPopUpWindowShouldBeDisplayed(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 569000000,
+              "duration": 235000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "user selects Cars \"Cars\" tab",
+            "name": "user selects United Kingdom \"United Kingdom\" Region",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Cars\"",
-                  "offset": 18
+                  "val": "\"United Kingdom\"",
+                  "offset": 28
                 }
               ],
-              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsCarsTab(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.MainPageHeaderTabsSteps.userSelectsUnitedKingdomRegion(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 361000000,
+              "duration": 178000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "user selects Packages \"Packages\" tab",
+            "name": "use select  english \"English\" language",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Packages\"",
-                  "offset": 22
+                  "val": "\"English\"",
+                  "offset": 20
                 }
               ],
-              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsPackagesTab(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.MainPageHeaderTabsSteps.useSelectEnglishLanguage(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 282000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "user selects  Things to do \"Things to do\" tab",
+            "name": "clicks on \"Save\"  button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Things to do\"",
-                  "offset": 27
+                  "val": "\"Save\"",
+                  "offset": 10
                 }
               ],
-              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsThingsToDoTab(java.lang.String)"
+              "location": "com.expedia.stepDefinitions.MainPageHeaderTabsSteps.clicksOnButton(java.lang.String)"
             },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 415000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user selects Cruises \"Cruises\" tab",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Cruises\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.expedia.stepDefinitions.AllNavTabsSteps.userSelectsCruisesTab(java.lang.String)"
-            },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@AllNavTabs"
+            "name": "@MainPageHeaderTab"
           },
           {
-            "name": "@Tabs"
+            "name": "@HeaderTabLanguageTab"
           }
         ]
       }
     ],
-    "name": "MainTabs",
+    "name": "Main page",
     "description": "",
-    "id": "maintabs",
+    "id": "main-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/AllNavTabs.feature",
+    "uri": "file:src/test/resources/features/MainPage.feature",
     "tags": [
       {
-        "name": "@AllNavTabs",
+        "name": "@MainPageHeaderTab",
         "type": "Tag",
         "location": {
           "line": 1,
