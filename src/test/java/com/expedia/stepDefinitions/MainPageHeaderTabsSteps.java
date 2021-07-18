@@ -1,16 +1,18 @@
 package com.expedia.stepDefinitions;
 
-import com.expedia.pages.AllNavTabsPage;
 import com.expedia.pages.MainPageHeaderTabsPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 
 import static com.expedia.base.Hook.driver;
 
 public class MainPageHeaderTabsSteps {
     MainPageHeaderTabsPage mainPageHeaderTabsPage = new MainPageHeaderTabsPage(driver);
+    private static final Logger logger = Logger.getLogger(MainPageHeaderTabsSteps.class);
+
 
     @Given("use is on main page")
     public void useIsOnMainPage() {
@@ -24,12 +26,10 @@ public class MainPageHeaderTabsSteps {
         Assert.assertTrue(isDisplayed);
     }
 
-
     @Then("user selects United Kingdom {string} Region")
     public void userSelectsUnitedKingdomRegion(String region) {
         String actual = mainPageHeaderTabsPage.getLanguageDropDownPopUpRegion(region);
         Assert.assertEquals(region, actual);
-
     }
 
 
@@ -41,7 +41,48 @@ public class MainPageHeaderTabsSteps {
 
 
     @Then("clicks on {string}  button")
-    public void clicksOnButton(String arg0) {
+    public void clicksOnButton(String expected) {
+        String result = mainPageHeaderTabsPage.getLanguageDropDownPopUpSave_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+
+    @Given("use is on main page and clicks on {string}")
+    public void useIsOnMainPageAndClicksOn(String expected) {
+        String result = mainPageHeaderTabsPage.getHeaderMainSignIn_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @Given("use is on main page and clicks on Sign in {string}")
+    public void useIsOnMainPageAndClicksOnSignIn(String expected) {
+        String result = mainPageHeaderTabsPage.getHeaderMainSignIn_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+
+    @Then("user clicks on {string}")
+    public void userClicksOn(String expected) {
+        String result = mainPageHeaderTabsPage.getPopUpWindowSignIn_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @And("a new window with the current url {string} should be displayed for user to sign in")
+    public void aNewWindowWithTheCurrentUrlShouldBeDisplayedForUserToSignIn(String expected) {
+        String result = mainPageHeaderTabsPage.getCurrentUrl(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @Then("user clicks on Sign up, it’s free {string}")
+    public void userClicksOnSignUpItSFree(String expected) {
+        String result = mainPageHeaderTabsPage.getPopUpWindowsSgnUpItsFreePopUpWindow_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+
+    @And("a new window {string} should be displayed for user to sign up")
+    public void aNewWindowShouldBeDisplayedForUserToSignUp(String expected) {
+        String result = mainPageHeaderTabsPage.getCurrentUrl(expected);
+        Assert.assertEquals(result, expected);
     }
 
 

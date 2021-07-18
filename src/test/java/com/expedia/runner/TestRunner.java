@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/features"},
         glue = {"com.expedia"},
         dryRun = false,
-        tags = ("@HeaderTabLanguageTab")
+        tags = ("@signUpItsFreePopUpWindow")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

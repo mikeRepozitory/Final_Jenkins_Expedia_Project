@@ -1,0 +1,3 @@
+2021-07-18 18:27:41 INFO  Hook:38 - Log4j Configured
+2021-07-18 18:27:41 INFO  Hook:46 - After SCENARIO
+2021-07-18 18:27:43 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
