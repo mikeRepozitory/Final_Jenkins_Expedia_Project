@@ -1,7 +1,0 @@
-2021-07-18 15:59:04 INFO  Hook:38 - Log4j Configured
-2021-07-18 15:59:04 INFO  MainPageHeaderTabsPage:34 - carPage Constructor initialized
-2021-07-18 15:59:04 INFO  MainPageHeaderTabsPage:115 - clicked on saveButton: Sign in
-2021-07-18 15:59:04 INFO  MainPageHeaderTabsPage:124 - clicked on: Sign innameofCurrMethod<init>
-2021-07-18 15:59:04 INFO  MainPageHeaderTabsSteps:61 - passed: 
-2021-07-18 15:59:04 INFO  Hook:46 - After SCENARIO
-2021-07-18 15:59:06 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

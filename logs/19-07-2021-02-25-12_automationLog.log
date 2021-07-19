@@ -1,0 +1,10 @@
+2021-07-19 14:25:12 INFO  Hook:38 - Log4j Configured
+2021-07-19 14:25:12 INFO  MainPageHeaderTabsPage:35 - MainPageHeaderTabsPage Constructor initialized
+2021-07-19 14:25:12 INFO  LoginMainPage:28 - carPage Constructor initialized
+2021-07-19 14:25:12 INFO  MainPageHeaderTabsPage:139 - Passed: Sign in
+2021-07-19 14:25:16 INFO  MainPageHeaderTabsPage:184 - Passed: Sign in
+2021-07-19 14:25:16 INFO  MainPageHeaderTabsPage:207 - Passed: https://www.expedia.com/user/signin?ckoflag=0&uurl=e3id%3Dredr%26rurl%3D%2F
+2021-07-19 14:25:16 INFO  LoginMainPage:92 - message: Sign in with Apple
+2021-07-19 14:25:22 INFO  LoginMainPage:119 - Success sent the credentials
+2021-07-19 14:26:29 INFO  Hook:46 - After SCENARIO
+2021-07-19 14:26:32 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

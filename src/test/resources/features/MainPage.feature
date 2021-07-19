@@ -14,12 +14,37 @@ Feature: Main page
     Given  use is on main page and clicks on List your property "List your property"
     And a new window "Property Info - Join Expedia" should be open another new tab with Expedia GROUP
 
-
   @SignIn
   Scenario: User checks that the sign in button works
     Given  use is on main page and clicks on "Sign in"
     Then user clicks on "Sign in"
     And a new window with the current url "https://www.expedia.com/user/signin?ckoflag=0&uurl=e3id%3Dredr%26rurl%3D%2F" should be displayed for user to sign in
+
+  @SignInWithWrongCredentials
+  Scenario: User checks that the sign in button works
+    Given  use is on main page and clicks on "Sign in"
+    Then user clicks on "Sign in"
+    And a new window with the current url "https://www.expedia.com/user/signin?ckoflag=0&uurl=e3id%3Dredr%26rurl%3D%2F" should be displayed for user to sign in
+    When user input wrong userName "test1234@gmail.com" and wrong password "test123"
+    Then the system should display error message "You may have entered an unknown email address or an incorrect password.						"
+
+  @SignInWithWrongAppleCredentials
+  Scenario: User checks that the sign in button works
+    Given  use is on main page and clicks on "Sign in"
+    Then user clicks on "Sign in"
+    And a new window with the current url "https://www.expedia.com/user/signin?ckoflag=0&uurl=e3id%3Dredr%26rurl%3D%2F" should be displayed for user to sign in
+    Then  user clicks on  Sign in with Apple  "Sign in with Apple"
+    When user input wrong userName "test12345@gmail.com" and wrong password "test123" to the Apple account
+    Then the system should display error message for Apple signIn "You must unlock your account before signing in.".
+
+  @SignInWithWrongGoogleCredentials
+  Scenario: User checks that the sign in button works
+    Given  use is on main page and clicks on "Sign in"
+    Then user clicks on "Sign in"
+    And a new window with the current url "https://www.expedia.com/user/signin?ckoflag=0&uurl=e3id%3Dredr%26rurl%3D%2F" should be displayed for user to sign in
+    Then  user clicks on  Sign in with Google "Sign in with Google"
+    When user input wrong userName "test12345@gmail.com" and wrong password "test123" to the google account
+    Then the system should display error message for google signIn "Wrong password. Try again or click Forgot password to reset it".
 
   @signUpItsFreePopUpWindow
   Scenario: User checks that the sign up is free button works

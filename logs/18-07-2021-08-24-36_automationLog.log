@@ -1,7 +1,0 @@
-2021-07-18 20:24:36 INFO  Hook:38 - Log4j Configured
-2021-07-18 20:24:36 INFO  MainPageHeaderTabsPage:33 - MainPageHeaderTabsPage Constructor initialized
-2021-07-18 20:24:36 INFO  MainPageHeaderTabsPage:116 - Passed: Sign in
-2021-07-18 20:24:41 INFO  MainPageHeaderTabsPage:151 - Passed: Expedia Rewards
-2021-07-18 20:24:41 INFO  MainPageHeaderTabsPage:170 - Passed: https://www.expedia.com/rewards/howitworks
-2021-07-18 20:24:41 INFO  Hook:46 - After SCENARIO
-2021-07-18 20:24:43 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26

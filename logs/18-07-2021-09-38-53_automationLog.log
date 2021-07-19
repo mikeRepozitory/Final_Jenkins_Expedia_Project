@@ -1,6 +1,0 @@
-2021-07-18 21:38:53 INFO  Hook:38 - Log4j Configured
-2021-07-18 21:38:53 INFO  MainPageHeaderTabsPage:35 - MainPageHeaderTabsPage Constructor initialized
-2021-07-18 21:40:24 INFO  Hook:46 - After SCENARIO
-2021-07-18 21:40:26 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
-2021-07-18 21:40:26 INFO  Hook:21 - BEFORE SCENARIO
-2021-07-18 21:40:31 INFO  Hook:28 - website open 

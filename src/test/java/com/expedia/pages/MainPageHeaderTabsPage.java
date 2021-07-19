@@ -60,6 +60,7 @@ public class MainPageHeaderTabsPage {
     @FindBy(xpath = "//div[text()='List your property']")
     WebElement listYourPropertyHeader_Locator;
 
+
     public void getEnglishNavigation_Tab() {
         tabString = englishNavTabs_locator.getText();
         englishNavTabs_locator.click();

@@ -14,6 +14,7 @@ public class Library {
         for (String tab : tabs) {
             if (!tab.equals(current_tab)) {
                 driver.switchTo().window(tab);
+                System.out.println("Tab switched");
             }
             waitFor.waitFor(timeToWaitInSeconds);
         }

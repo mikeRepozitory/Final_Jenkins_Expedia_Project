@@ -1,9 +1,11 @@
 package com.expedia.stepDefinitions;
 
+import com.expedia.pages.LoginMainPage;
 import com.expedia.pages.MainPageHeaderTabsPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
@@ -11,6 +13,7 @@ import static com.expedia.base.Hook.driver;
 
 public class MainPageHeaderTabsSteps {
     MainPageHeaderTabsPage mainPageHeaderTabsPage = new MainPageHeaderTabsPage(driver);
+    LoginMainPage loginMainPage = new LoginMainPage(driver);
     private static final Logger logger = Logger.getLogger(MainPageHeaderTabsSteps.class);
 
 
@@ -135,4 +138,48 @@ public class MainPageHeaderTabsSteps {
     }
 
 
+    @When("user input wrong userName {string} and wrong password {string}")
+    public void userInputWrongUserNameAndWrongPassword(String acc, String pass) {
+        loginMainPage.getUsernameAndPassword(acc, pass);
+    }
+
+    @Then("the system should display error message {string}")
+    public void theSystemShouldDisplayErrorMessage(String expected) {
+        String result = loginMainPage.isLoggedInMessage(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @Then("user clicks on  Sign in with Google {string}")
+    public void userClicksOnSignInWithGoogle(String expected) throws InterruptedException {
+        String result = loginMainPage.isGoogleLoginWindowDisplayed(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @When("user input wrong userName {string} and wrong password {string} to the google account")
+    public void userInputWrongUserNameAndWrongPasswordToTheGoogleAccount(String acc, String pass) {
+        loginMainPage.getSignInWithGoogleUsernameAndPassword(acc, pass);
+    }
+
+    @Then("the system should display error message for google signIn {string}.")
+    public void theSystemShouldDisplayErrorMessageForGoogleSignIn(String expected) {
+        String result = loginMainPage.isLoggedInGoogleMessage(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @Then("user clicks on  Sign in with Apple  {string}")
+    public void userClicksOnSignInWithApple(String expected) throws InterruptedException {
+        String result = loginMainPage.isAppleLoginWindowDisplayed(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @When("user input wrong userName {string} and wrong password {string} to the Apple account")
+    public void userInputWrongUserNameAndWrongPasswordToTheAppleAccount(String acc, String pass) {
+         loginMainPage.getSignInWithAppleUsernameAndPassword(acc,pass);
+    }
+
+    @Then("the system should display error message for Apple signIn {string}.")
+    public void theSystemShouldDisplayErrorMessageForAppleSignIn(String expected) {
+        String result = loginMainPage.isLoggedInAppleMessage(expected);
+        Assert.assertEquals(result, expected);
+    }
 }
