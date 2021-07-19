@@ -1,0 +1,5 @@
+2021-07-18 19:27:25 INFO  Hook:38 - Log4j Configured
+2021-07-18 19:27:25 INFO  MainPageHeaderTabsPage:33 - MainPageHeaderTabsPage Constructor initialized
+2021-07-18 19:28:55 INFO  Hook:46 - After SCENARIO
+2021-07-18 19:28:58 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
+2021-07-18 19:28:59 DEBUG PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

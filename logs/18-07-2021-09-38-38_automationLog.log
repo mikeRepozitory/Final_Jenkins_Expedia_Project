@@ -1,0 +1,9 @@
+2021-07-18 21:38:38 INFO  Hook:38 - Log4j Configured
+2021-07-18 21:38:38 INFO  MainPageHeaderTabsPage:35 - MainPageHeaderTabsPage Constructor initialized
+2021-07-18 21:38:43 INFO  MainPageHeaderTabsPage:74 - clicked on: List your property tab
+2021-07-18 21:38:45 INFO  MainPageHeaderTabsPage:76 - Switching tab-----
+2021-07-18 21:38:45 INFO  MainPageHeaderTabsPage:213 - Passed: Property Info - Join Expedia
+2021-07-18 21:38:45 INFO  Hook:46 - After SCENARIO
+2021-07-18 21:38:47 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
+2021-07-18 21:38:48 INFO  Hook:21 - BEFORE SCENARIO
+2021-07-18 21:38:53 INFO  Hook:28 - website open 

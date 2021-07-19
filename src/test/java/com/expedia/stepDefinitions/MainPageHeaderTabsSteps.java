@@ -48,17 +48,28 @@ public class MainPageHeaderTabsSteps {
 
 
     @Given("use is on main page and clicks on {string}")
-    public void useIsOnMainPageAndClicksOn(String expected) {
+    public void useIsOnMainPageAndClicksOn(String expected) throws InterruptedException {
         String result = mainPageHeaderTabsPage.getHeaderMainSignIn_button(expected);
         Assert.assertEquals(result, expected);
     }
 
     @Given("use is on main page and clicks on Sign in {string}")
-    public void useIsOnMainPageAndClicksOnSignIn(String expected) {
+    public void useIsOnMainPageAndClicksOnSignIn(String expected) throws InterruptedException {
         String result = mainPageHeaderTabsPage.getHeaderMainSignIn_button(expected);
         Assert.assertEquals(result, expected);
     }
 
+    @Given("use is on main page and clicks on List your property {string}")
+    public void useIsOnMainPageAndClicksOnListYourProperty(String expected) {
+        String result = mainPageHeaderTabsPage.getListYourPropertyHeaderNavigation_Tab(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @And("a new window {string} should be open another new tab with Expedia GROUP")
+    public void aNewWindowShouldBeOpenAnotherNewTabWithExpediaGROUP(String expectedPageTitle) throws InterruptedException {
+        String result = mainPageHeaderTabsPage.getCurrentPageTitle(expectedPageTitle);
+        Assert.assertEquals(result, expectedPageTitle);
+    }
 
     @Then("user clicks on {string}")
     public void userClicksOn(String expected) {
@@ -81,6 +92,44 @@ public class MainPageHeaderTabsSteps {
 
     @And("a new window {string} should be displayed for user to sign up")
     public void aNewWindowShouldBeDisplayedForUserToSignUp(String expected) {
+        String result = mainPageHeaderTabsPage.getCurrentUrl(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+
+    @Then("user clicks on  List of favorites {string}")
+    public void userClicksOnListOfFavorites(String expected) {
+        String result = mainPageHeaderTabsPage.getListOfFavoritesPopUpWindow_button(expected);
+        Assert.assertEquals(result, expected);
+
+    }
+
+    @And("a new window {string} should be displayed with the list of favorites")
+    public void aNewWindowShouldBeDisplayedWithTheListOfFavorites(String expected) {
+        String result = mainPageHeaderTabsPage.getCurrentUrl(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @Then("user clicks on Expedia Rewards {string}")
+    public void userClicksOnExpediaRewards(String expected) {
+        String result = mainPageHeaderTabsPage.getExpediaRewardsPopUpWindow_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @And("a new window {string} should be displayed with the Expedia Rewards")
+    public void aNewWindowShouldBeDisplayedWithTheExpediaRewards(String expected) {
+        String result = mainPageHeaderTabsPage.getCurrentUrl(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @Then("user clicks on Feedback {string}")
+    public void userClicksOnFeedback(String expected) {
+        String result = mainPageHeaderTabsPage.getFeedbackPopUpWindow_button(expected);
+        Assert.assertEquals(result, expected);
+    }
+
+    @And("a new window {string} should be open another new tab with Feedback")
+    public void aNewWindowShouldBeOpenAnotherNewTabWithFeedback(String expected) {
         String result = mainPageHeaderTabsPage.getCurrentUrl(expected);
         Assert.assertEquals(result, expected);
     }

@@ -1,0 +1,7 @@
+2021-07-18 21:07:58 INFO  Hook:38 - Log4j Configured
+2021-07-18 21:07:58 INFO  MainPageHeaderTabsPage:34 - MainPageHeaderTabsPage Constructor initialized
+2021-07-18 21:07:58 INFO  MainPageHeaderTabsPage:119 - Passed: Sign in
+2021-07-18 21:08:02 INFO  MainPageHeaderTabsPage:143 - Passed: List of favorites
+2021-07-18 21:08:02 INFO  MainPageHeaderTabsPage:187 - Passed: https://www.expedia.com/lists
+2021-07-18 21:08:02 INFO  Hook:46 - After SCENARIO
+2021-07-18 21:08:04 TRACE WebSocket08FrameEncoder:130 - Encoding WebSocket Frame opCode=8 length=26
