@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-import static com.expedia.base.Hook.driver;
+import static com.expedia.base.Hook.*;
 
 public class CarsPage {
     String navigationType = null;
