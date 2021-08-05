@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/features"},
         glue = {"com.expedia"},
         dryRun = false,
-        tags = ("@MainPageHeaderTab")
+        tags = ("@CompanyLink")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

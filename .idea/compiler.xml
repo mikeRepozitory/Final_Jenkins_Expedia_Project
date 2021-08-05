@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SkyScanner" />
         <module name="Final_Jenkins_Expedia_Project" />
+        <module name="Jenkins_Expedia_Project" />
       </profile>
     </annotationProcessing>
   </component>
